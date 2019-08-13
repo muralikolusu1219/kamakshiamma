@@ -1,0 +1,16 @@
+<div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+        <a style="cursor:pointer" (click)="naviagtePage('shivaratri')">Maha Shiva Ratri</a>
+        <a href="#">Bonalu</a>
+        <a href="#">Gajula Utsavam</a>
+        <a href="#">Anna Koti</a>
+        <a href="#">Dussera</a>
+      </div>
+      
+      <div id="main">
+            <h1 style="font-family: 'Times New Roman', Times, serif;"class="text-info">
+                Sri Kamakshi Ekaambareshwara Swami Devalayam</h1>  
+        <span style="font-size:30px;cursor:pointer;font-family: 'Times New Roman', Times, serif;" class="text-info" (click)="openNav()">&#9776; Select Events</span>
+        <router-outlet></router-outlet>
+    </div>
+     
